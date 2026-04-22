@@ -3,10 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome ti My Portofolio</title>
+    <title>Welcome to My Portofolio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 30px 50px;
+            color: #333;
+        }
+        nav a {
+            text-decoration: none;
+            color:blue;
+            font-weight: 15px;
+        }
+        .potoprofil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ccc;
+        }
+        .galeri-portfolio {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding-bottom: 15px;
+        }
+        .galeri-portfolio img {
+            height: 250px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        form {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        form button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border:none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: chartreuse;
+        }
+    </style>
 </head>
 <body>
-   <h2>Welcome ti My Portofolio</h2>
+   <h2>Welcome to My Portofolio</h2>
    <nav>
     <nav>
     <a href="/">Home</a>
@@ -36,9 +84,10 @@
     </ol>
 </div>
 <br><hr><br>
-<div>
-    <h4>My Portofolio</h4>
+<h4>My Portofolio</h4>
+<div class="galeri-portfolio">
     <img src="labapintar.png" alt="Web LabaPintar">
+    <img src="">
 </div>
 <br><hr><br>
 <div>
