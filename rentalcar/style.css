@@ -1,11 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-<<<<<<< HEAD
     background-color: #f6f472; 
-=======
-    background-color: #f4f4f9; 
->>>>>>> c9c19e0d70a34cffcdd4ed6fe58e88c0c8509781
 }
 #search {
     width: 100%;
@@ -49,15 +45,12 @@ body {
     margin: 3em auto;
     opacity: 0.5;
 }
-<<<<<<< HEAD
 .garis-tebal {
     border: none;
     border-top: 5px solid #333333;
     width: 100%;
     margin: 0 0 20px 0;
 }
-=======
->>>>>>> c9c19e0d70a34cffcdd4ed6fe58e88c0c8509781
 .form-container {
     background-color: rgba(0, 0, 0, 0.7); 
     display: flex;
@@ -112,7 +105,6 @@ body {
 }
 .car-list h2 {
     font-size: 2.5em;
-<<<<<<< HEAD
     margin: 0 auto 1.5em auto;
     grid-column: 1 / -1;
     text-align: center;
@@ -140,25 +132,6 @@ body {
 .car-item:hover {
     transform: translateY(-10px); 
     box-shadow: 0 15px 30px rgba(0,0,0,0.25);
-=======
-    margin: 0 0 1em 0;
-    grid-column: 1 / -1;
-    text-align: center;
-    color: #333;
-}
-.car-item {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px; 
-    overflow: hidden; 
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-.car-item:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
->>>>>>> c9c19e0d70a34cffcdd4ed6fe58e88c0c8509781
 }
 .car-item img {
     width: 100%;
@@ -180,7 +153,6 @@ body {
     color: #666;
     line-height: 1.5;
     flex-grow: 1; 
-<<<<<<< HEAD
     
 }
 .car-item h3, .car-item p {
@@ -204,21 +176,4 @@ body {
 .btn-sewa:hover {
     background-color: #1e5c22;
     box-shadow: 0 15px 30px rgba(0,0,0,0.25); 
-=======
-}
-.btn-sewa {
-    display: block;
-    text-align: center;
-    background-color: #25D366;
-    color: white;
-    padding: 10px 15px;
-    margin-top: 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-.btn-sewa:hover {
-    background-color: #128C7E;
->>>>>>> c9c19e0d70a34cffcdd4ed6fe58e88c0c8509781
 }
