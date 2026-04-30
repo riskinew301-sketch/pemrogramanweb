@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9; 
+    background-color: #f6f472; 
 }
 #search {
     width: 100%;
     height: 50em;
-    background-image: url("http://i.pinimg.com/1200x/42/a2/b0/42a2b085f36fa2beaffb953081eaa22e.jpg");
+    background-image: url("https://i.pinimg.com/1200x/42/a2/b0/42a2b085f36fa2beaffb953081eaa22e.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -44,6 +44,12 @@ body {
     border: 1px solid white;
     margin: 3em auto;
     opacity: 0.5;
+}
+.garis-tebal {
+    border: none;
+    border-top: 5px solid #333333;
+    width: 100%;
+    margin: 0 0 20px 0;
 }
 .form-container {
     background-color: rgba(0, 0, 0, 0.7); 
@@ -99,23 +105,33 @@ body {
 }
 .car-list h2 {
     font-size: 2.5em;
-    margin: 0 0 1em 0;
+    margin: 0 auto 1.5em auto;
     grid-column: 1 / -1;
     text-align: center;
     color: #333;
+    background-color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 12px;
+    width:fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+
 }
 .car-item {
-    background-color: white;
+    background-color: #fff9c4;
     display: flex;
     flex-direction: column;
-    border-radius: 10px; 
+    border-radius: 12px; 
     overflow: hidden; 
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.car-item h3 {
+    text-align: center;
+    margin-top: 15px;
 }
 .car-item:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
 }
 .car-item img {
     width: 100%;
@@ -137,19 +153,27 @@ body {
     color: #666;
     line-height: 1.5;
     flex-grow: 1; 
+    
+}
+.car-item h3, .car-item p {
+    padding: 0 15px; 
 }
 .btn-sewa {
     display: block;
-    text-align: center;
-    background-color: #25D366;
-    color: white;
-    padding: 10px 15px;
-    margin-top: 15px;
-    text-decoration: none;
-    border-radius: 5px;
+    background-color: #07a812;
+    color: #ffffff;
     font-weight: bold;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-align: center;
     transition: background-color 0.3s ease;
+    margin-top: auto;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .btn-sewa:hover {
-    background-color: #128C7E;
+    background-color: #1e5c22;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25); 
 }
