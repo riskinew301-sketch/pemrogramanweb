@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4CAF50;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #4CAF50;
+}
+.hero-section {
+    background-color: #e8f5e9;
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom: 2px solid #ddd;
+}
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+.search-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.search-form input {
+    padding: 12px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.search-form button {
+    padding: 12px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.body-section {
+    background-color: #a3a3a3;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+.to-do-list {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 380px;
+}
+.to-do-list h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.input-todo {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+.input-todo input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    outline: none;
+}
+.input-todo button {
+    padding: 10px 15px;
+    background-color: #2b7a30;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.input-todo button:hover {
+    background-color: #1e5c22;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.list li {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.list li:last-child {
+    border-bottom: none;
+}
+.list label {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.list input[type="checkbox"] {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+.list input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #888888;
+}
+.contact-section {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+.contact-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-form input, .contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+.contact-form button {
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.wa-box p {
+    margin-bottom: 10px;
+}
+.btn-wa {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
