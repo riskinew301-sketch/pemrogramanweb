@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">To-Do ListApp</div>
+        <nav>
+            <a href="#hero">Beranda</a>
+            <a href="#aplikasi">Aplikasi</a>
+            <a href="#kontak">Hubungi Kami</a>
+        </nav>
+    </header>
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Atur Jadwalmu Dengan Mencatat di Sini</h1>
+            <p>Gunakan aplikasi To-Do List untuk mencatat tugas harianmu dengan mudah</p>
+            <form class="search-form">
+                <input type="text" placeholder="Cari Tugas">
+                <button type="submit">Cari</button>
+            </form>
+        </div>
+    </section>
+    <section id="aplikasi" class="body-section">
+            <div class="to-do-list">
+            <h2>Catatan Harian</h2>
+            <div class="input-todo">
+                <input type="text" placeholder="Tulis Catatan">
+                <button>Tambah</button>    
+            </div>
+            <ul class="list">
+                <li>
+                    <input type="checkbox" id="catatan1">
+                    <label for="catatan1">Belajar blocking situs menggunakan mikrotik</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="catatan2">
+                    <label for="catatan2">Besok Asn Pemrograman Web</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="catatan3">
+                    <label for="catatan3">Malam Sabtu mengerjakan tugas dari google</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="catatan4">
+                    <label for="catatan4">Malam Minggu Info ngopi</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="catatan5">
+                    <label for="catatan5">Minggu pagi info ngopag</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="catatan6">
+                    <label for="catatan6">Minggu depan UTS</label>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="kontak" class="contact-section">
+        <h2>Kritik dan Saran</h2>
+        <div class="contact-wrapper">
+            <form class="contact-form">
+                <input type="text" placeholder="Nama Lengkap" required>
+                <input type="email" placeholder="Alamat Email" required>
+                <textarea placeholder="Tulis Pesan" rows="4" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+            <div class="wa-box">
+                <p>Hubungi kami:</p>
+                <a href="https://wa.me/62882007166831" target="_blank" class="btn-wa">WhatsApp</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>2026 To-Do ListApp ASN Pemrograman Web</p>
+    </footer>
+</body>
+</html>
