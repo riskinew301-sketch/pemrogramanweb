@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-ZkyCyber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">ZkyCyber</div>
+            <div class="navigasi">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="aktif">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="contact">
+        <h1 class="teksjudul">INITIATE CONNECTION</h1>
+        <p class="teksbawah">Saluran terenkripsi, Kirimkan pesan Anda secara aman</p>
+        <div class="kontak">
+            <a href="https://wa.me/62882007166831" target="_blank" class="btnservices">WhatsApp</a>
+            <a href="mailto:newzkysky@gmail.com" class="btnservices">Email</a>
+        </div>
+        <form class="form" onsubmit="event.preventDefault(); kirimPesan();">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" rows="5" required></textarea>
+            <button type="submit" class="btnsubmit">SEND MESSAGE</button>
+        </form>
+    </main>
+    <div class="textberjalan">
+            <div class="isi" id="animasi">
+                <span>ZKYCYBER</span>
+                <span>PENETRATION TESTING</span>
+                <span>CLOUD SECURITY</span>
+                <span>INCIDENT RESPONSE</span>
+                <span>ZERO TRUST ARCHITECTURE</span>
+                <span>ENCRYPTION</span>
+            </div>
+        </div>
+    <footer class="footer">
+    <p>&copy; 2026 ZkyCyber Defense Systems. Secure Connection Established</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
