@@ -42,7 +42,8 @@ $produk = [
                         <a href="helloworld.php" class="hover:text-blue-600 transition">Utama</a>
                         <a href="datetime.php" class="hover:text-blue-600 transition">Waktu</a>
                         <a href="dataarray.php" class="hover:text-blue-600 transition">Produk</a>
-                        <a href="katalog.php" class="hover:text-blue-600 transition">Katalog</a>
+                        <a href="katalog.php" class="text-blue-600 transition">Katalog</a>
+                        <a href="tugas-login.php" class="hover:text-blue-600 transition">Tugas Login</a>
                     </div>
                 </div>
             </div>
