@@ -13,6 +13,7 @@ $waktu = $now->format('H:i:s');
 <!DOCTYPE html>
 <html lang="id">
 <head>
+    <title>Waktu</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
