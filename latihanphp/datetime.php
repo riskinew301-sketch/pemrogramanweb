@@ -13,26 +13,25 @@ $waktu = $now->format('H:i:s');
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <script src="https://tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-    <nav class="bg-white shadow-md mb-6">
-        <div class="max-w-4xl mx-auto px-4">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex-shrink-0 font-bold text-xl text-blue-600">
-                    Produk
-                </div>
-                <div class="flex space-x-6 text-gray-600 font-medium">
-                    <a href="helloworld.php" class="hover:text-blue-600 transition">Utama</a>
-                    <a href="datetime.php" class="hover:text-blue-600 transition">Waktu</a>
-                    <a href="dataarray.php" class="hover:text-blue-600 transition">Produk</a>
-                    <a href="katalog.php" class="hover:text-blue-600 transition">Katalog</a>
-                </div>
-            </div>
+<nav class="bg-white shadow-md mb-6">
+            <div class="max-w-4xl mx-auto px-4">
+                <div class="flex justify-between items-center h-16">
+                    <div class="flex-shrink-0 font-bold text-xl text-blue-600">
+            Waktu
+        </div>
+        <div class="flex space-x-6 text-gray-600 font-medium">
+            <a href="helloworld.php" class="hover:text-blue-600 transition">Utama</a>
+            <a href="datetime.php" class="text-blue-600 transition">Waktu</a>
+            <a href="dataarray.php" class="hover:text-blue-600 transition">Produk</a>
+            <a href="katalog.php" class="hover:text-blue-600 transition">Katalog</a>
+            <a href="tugas-login.php" class="hover:text-blue-600 transition">Tugas Login</a>
         </div>
     </nav>
-    <div class="bg-white p-8 rounded-2xl shadow-lg max-w-sm w-full text-center">
+    <main class="flex-1 flex items-center justify-center p-4">
+    <div class="bg-white p-8 rounded-2xl shadow-lg max-w-sm w-full">
         <h1 class="text-xl font-semibold mb-6">Tanggal dan Waktu Sekarang</h1>
         
         <p class="mb-4">
